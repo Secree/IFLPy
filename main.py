@@ -97,10 +97,10 @@ def add_track():
     message = f"{timePart} | {LIGHTBLUE}{artist} - {trackName}{RESET} was {GREEN}added{RESET} to your playlist."
     print(message)
 
-
 def main():
     check_config()
     collect_tracks()
+
     keyboard.add_hotkey('alt+0', add_track)
 
     print(Fore.RED + 'PRESS "alt + -" to stop program.')

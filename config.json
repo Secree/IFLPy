@@ -1,0 +1,9 @@
+{
+  "user-settings": { "playlistID": "1CQXW3KFWFxObIxdmh8o1k", "keybinding": 11 },
+  "app-settings": {
+    "client_id": "7a47d95a7cb847fa82c3db40c666916a",
+    "client_secret": "8846e6df29be42aebd2194d9e3c4ecc9",
+    "scope": "playlist-modify-private%20playlist-modify-public%20user-read-currently-playing",
+    "redirectURL": "http://localhost:8080"
+  }
+}
